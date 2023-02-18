@@ -1,8 +1,9 @@
-module github.com/YerkinAlagozov/kraken_parser
+module kraken_parse
 
 go 1.20
 
 require (
+	github.com/YerkinAlagozov/kraken_parser v1.0.2
 	github.com/gorilla/websocket v1.5.0
 	github.com/pkg/errors v0.9.1
 	github.com/shopspring/decimal v1.3.1
